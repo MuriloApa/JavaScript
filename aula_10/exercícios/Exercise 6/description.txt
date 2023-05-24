@@ -1,0 +1,1 @@
+Crie uma página Web com uma interface para simular uma calculadora. Você deve utilizar o conceito de "delegação de eventos" para adicionar as funcionalidades aos botões. Cada vez que o usuário clicar em um botão, o seu valor deve ser inserido na caixa de texto (input). O resultado da operação (quando o usuário clicar em igual) deve ser mostrado em uma caixa de alerta.

@@ -1,0 +1,79 @@
+:root {
+    --yellow: #f4bc34;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: grid;
+    box-sizing: border-box;
+    grid-template-rows: repeat(5, 20%);
+    grid-template-columns: repeat(5, 20%);
+    background-color: black;
+    border: var(--yellow);
+    border-style: solid;
+    border-width: 3px;
+    width: 300px;
+    height: 250px;
+}
+
+#nome {
+    background-color: var(--yellow);
+    color: black;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nome span{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#tela {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border-color: var(--yellow);
+    border-style: solid;
+    margin: 3px;
+    background-color: rgb(212, 212, 212);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#sTela {
+    font-size: 1em;
+    margin-left: .5em;
+}
+
+/* .divButton {
+    background-color: black;
+    border-color: var(--yellow);
+    border-style: solid;
+    border-width: 2px;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.blackbutton {
+    background-color: black;
+    border-color: var(--yellow);
+    border-style: solid;
+    border-width: 2px;
+    margin: 3px;
+    color: var(--yellow);
+    flex-grow: 1;
+    font-size: 1em;
+}

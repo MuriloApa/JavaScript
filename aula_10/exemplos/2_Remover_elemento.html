@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 2 - Remover Elemento</title>
+
+    <script>
+        removeElemento = function (){
+            var parent = document.getElementById('div1');
+            var child = document.getElementById('p1');
+            parent.removeChild(child);
+        }
+    </script>
+</head>
+<body>
+    <div id="div1">
+        <p id="p1">Esse é o primeiro parágrafo</p>
+        <p id="p2">Esse é o segundo parágrafo</p>
+        <a href="#" onclick="removeElemento();">Remover primeiro parágrafo</a>
+    </div>
+</body>
+</html>
