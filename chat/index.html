@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Bate-Papo da Turma de Programação para Web</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-database.js"></script>
+
+  <script src="scripts/auxiliar.js"></script>
+  <script src="scripts/chat.js"></script>
+</head>
+<body>
+
+
+<!-- IMPLEMENTE SEU CÓDIGO HTML AQUI!!!! -->
+<main class="mx-auto d-flex flex-column bd-highlight justify-content-center" >
+  <div class="alert alert-primary p-2 bd-highlight" id="init_screen">
+    <h1>Trabalho de Programação Web I</h1>
+    <h2>Murilo Aparecido Carvalho Nascimento</h2>
+    <button class="btn btn-primary" onclick="signIn();">Logar com conta Google</button>
+  </div>
+  <div class="card mx-auto p-2 bd-highlight" id="profile_screen" style="display: none">
+    <img class="card-img-top" src="" alt="Imagem de perfil do usuário" id="user_img">
+    <div class="card-body">
+      <h1 class="card-title" id="user_name">Nome do usuário</h1>
+      <input type="color" id="user-color" name="n_color">
+      <label for="user-color">Escolha a cor do texto</label>
+      <button class="btn btn-primary" onclick="">Entrar</button>
+    </div>
+  </div>
+</main>
+
+
+
+
+
+
+</body>
+</html>
